@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "isolatedModules": false,
+    "moduleResolution": "node",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "strict": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@constants/*": ["constants/*"]
+    },
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
