@@ -8,6 +8,7 @@ export class ShipS extends Component {
       width: '45px',
       height: '45px',
     });
+    shipS.setAttribute('data-drag-and-drop', 'ship-small');
     return shipS;
   }
 }
