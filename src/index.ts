@@ -1,3 +1,5 @@
-import { SMALL_SHIP } from '@constants/ships.constants';
+import { App } from './app';
 
-const div = document.getElementById('root');
+const app = new App();
+
+document.body.append(app.render());

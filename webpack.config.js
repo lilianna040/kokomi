@@ -18,11 +18,10 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.ts'],
-  },
-
-  alias: {
-    '@constants': path.resolve(__dirname, './src/constants'),
+    extensions: ['.ts', '.js'],
+    alias: {
+      '@constants': path.resolve(__dirname, './src/constants'),
+    },
   },
 
   mode: 'development',
